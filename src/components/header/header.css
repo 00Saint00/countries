@@ -1,0 +1,31 @@
+.header {
+  background-color: #2b3743;
+  padding: 1.5rem 2rem;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header.light-theme {
+  background-color: var(--light-mode-background);
+  color: var(--light-mode-text);
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 2rem 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding: 1.5rem 6.5rem;
+  }
+}
